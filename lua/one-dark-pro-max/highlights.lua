@@ -21,6 +21,7 @@ local function get_groups(opts)
         NormalFloat = { bg = bg_float },
 	StatusLine = { bg = bg_main },
         CursorLineNr = { fg = palette.active_line_number },
+        CursorLineNC = { fg = palette.active_line_number },
         LineNr = { fg = palette.line_number },
         Visual = { bg = palette.visual },
         Search = { bg = palette.search },
