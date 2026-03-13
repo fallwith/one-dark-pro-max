@@ -62,7 +62,9 @@ local function get_groups(opts)
 
 	-- Tree-sitter html
 	["@tag.html"] = { fg = palette.variable },
-	["@tag.attribute.html"] = { fg = palette.func },
+	["@tag.attribute.html"] = { fg = palette.type },
+	["@tag.delimiter.html"] = { fg = palette.comment },
+	["@constant.html"] = { fg = palette.variable },
     }
 
     return groups
