@@ -3,9 +3,9 @@ local M = {}
 local highlights = require("one-dark-pro-max.highlights")
 
 M.opts = {
-    transparency = false,
-    bold = true,
-    italic = true,
+    transparency = true,
+    bold = false,
+    italic = false,
 }
 
 M.setup = function(opts) 
